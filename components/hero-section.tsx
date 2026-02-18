@@ -18,11 +18,11 @@ const slides = [
   },
   {
     image: "/hero-entertainment.png",
-    badge: "Streaming & Gaming Pro",
-    titlePrimary: "Vive el mejor",
-    titleGradient: "entretenimiento en 4K",
-    description: "Disfruta de tus series, películas y juegos favoritos con la menor latencia y máxima estabilidad.",
-    cta: "Ver Planes TV",
+    badge: "Powered by MagiskTV",
+    titlePrimary: "Streaming, canales y gaming",
+    titleGradient: "con MagiskTV incluido",
+    description: "Accede a miles de canales en vivo, series, películas y deportes en Full HD y 4K. MagiskTV, el complemento perfecto para tu fibra óptica Wiplus.",
+    cta: "Conocer MagiskTV",
   },
   {
     image: "/hero-bg.png",

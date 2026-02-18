@@ -13,11 +13,11 @@ export default function Home() {
     <main className="min-h-screen bg-background pt-20">
       <Header />
       <HeroSection />
-      <ServicesSection />
-      <PlansSection />
-      <BenefitsSection />
-      <AboutSection />
-      <CoverageSection />
+      <div data-reveal><PlansSection /></div>
+      <div data-reveal><ServicesSection /></div>
+      <div data-reveal><BenefitsSection /></div>
+      <div data-reveal><AboutSection /></div>
+      <div data-reveal><CoverageSection /></div>
       <Footer />
       <WhatsAppButton />
     </main>
