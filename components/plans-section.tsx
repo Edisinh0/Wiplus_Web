@@ -6,33 +6,49 @@ import Link from "next/link"
 
 const plans = [
   {
-    name: "Gamer / Home",
-    speed: "200",
-    price: "$31.890",
+    name: "Starter",
+    speed: "400",
+    price: "$14.990",
     features: ["130 Canales de TV", "Wifi Dual Band", "Soporte Prioritario", "IP Dinámica Pública"],
     popular: false,
     color: "from-[#F39200] to-[#E65100]",
   },
   {
+    name: "Home",
+    speed: "500",
+    price: "$18.000",
+    features: ["130 Canales de TV", "Wifi Dual Band", "Soporte Prioritario", "Ideal 3+ Dispositivos"],
+    popular: false,
+    color: "from-[#E65100] to-[#F39200]",
+  },
+  {
+    name: "Gamer",
+    speed: "600",
+    price: "$21.990",
+    features: ["130 Canales de TV", "Wifi 6 (Mayor Alcance)", "Soporte Prioritario", "Baja Latencia Gaming"],
+    popular: false,
+    color: "from-[#F39200] to-[#E65100]",
+  },
+  {
     name: "Streaming Pro",
-    speed: "400",
-    price: "$38.890",
+    speed: "700",
+    price: "$23.990",
     features: ["130 Canales de TV", "Wifi 6 (Mayor Alcance)", "Soporte Prioritario", "Ideal 5+ Dispositivos"],
     popular: true,
     color: "from-[#F39200] via-[#E65100] to-[#F39200]",
   },
   {
     name: "Power User",
-    speed: "600",
-    price: "$40.890",
+    speed: "800",
+    price: "$27.990",
     features: ["130 Canales de TV", "Wifi 6 Mesh Ready", "Soporte 24/7", "Baja Latencia Gaming"],
     popular: false,
     color: "from-[#E65100] to-[#F39200]",
   },
   {
     name: "Ultra Speed",
-    speed: "800",
-    price: "$44.890",
+    speed: "900",
+    price: "$31.990",
     features: ["130 Canales de TV", "Wifi 6 Extreme", "Soporte VIP Personalizado", "IP Fija Opcional"],
     popular: false,
     color: "from-[#F39200] to-[#E65100]",
@@ -83,7 +99,7 @@ export function PlansSection() {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {plans.map((plan, index) => (
             <div key={index} data-reveal data-reveal-delay={String(index + 1)}>
             <Card
